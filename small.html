@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+                 /* attribute */
+
+        /* .last {      means universal selector
+            border: 2px solid red;
+        }
+        div {
+            border: 2px solid blue;
+        }
+        #line-2{
+            border: 2px solid green;
+        }
+        body{
+            border: 2px solid black;
+        } */
+         a[href="www.netflix.com"]{
+            color:chocolate;
+
+         }
+
+         /* pseudo class */
+        /* #line-2{
+            color: green;
+        }
+        #line-2:hover{
+            color : red;
+        }
+        p:nth-child(3){
+            color: brown;
+        }
+        p:first-child{
+            color: blueviolet;
+        } */
+
+        li::after{
+            content:"😊"; /* to get emojii we need to use win+. */
+        }
+    </style>
+</head>
+
+<body>
+    <p>hello from line 1</p>
+    <p id="line-2">hello from line 2</p>
+    <p>hello from line 3</p>
+    <p class="last">hello from line 4</p>
+    <p class="last">hello from line 98765</p>
+    <div>division</div>
+    <hr>
+    <h1>heading 1</h1>
+    <a href="www.google.com">google</a>
+    <a href="www.netflix.com">netflix</a>
+    <a href="www.hotstar.com">hotstar</a>
+    <hr>
+    <input type="time">
+    <input type="number">
+    <input type="text">
+    <input type="password">
+
+    <div>
+        <ol>
+            <li>item</li>
+            <li>item</li>
+            <li>item</li>
+            <li>item</li>
+        </ol>
+
+    </div>
+</body>
+
+</html>

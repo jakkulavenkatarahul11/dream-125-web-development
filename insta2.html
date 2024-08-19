@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
+    <!-- link:favicon -->
+    <link rel="shortcut icon" href="HTML\insta-logo.jpg" type="image/x-icon">
+    <style>
+        body{
+            padding: 0px;
+            margin: 0px;
+            height: 100vh;  /*viewport screen height */
+            background-color: gray;
+            font-size: medium;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        .mobile-phone{
+            height:650px;
+            width: 350px;
+            background-color: white;
+            border: 5px solid black;
+            border-radius: 20px;
+        }
+        header{
+            background-color: rgb(15, 10, 0);
+            height: 5%;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+        }
+        .camera{
+            text-align: center;
+            height:20px;
+            width: 20px;
+            border-radius: 50px;
+            background-color: black;
+        }
+        .flex-center{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        main{
+            width: 100%;
+            padding:10px ;
+        }
+        .section-01{
+            height: 200px;
+            display: flex;
+        }
+        img{
+            height: 70px;
+            width: 70px;
+            border-radius: 50%;
+        }
+        .profile-section{
+            width: 25%;
+        }
+        .detail-section{
+            width: 70%;
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+        }
+    </style>
+</head>
+<body class="flex-center">
+    <div class="mobile-phone">
+        <header class="flex-center">
+            <div class="camera"></div>
+        </header>
+        <main id="instagram">
+            <section>
+                <p>thanusree_j</p>
+            </section>
+            <section class="section-01">
+                <div class="profile-section">
+                    <img src="https://imagesvibe.com/wp-content/uploads/2023/02/Beautiful-Radha-Krishna-Images-Hd29.jpg" alt="rk">
+                </div>
+                <div class="detail-section">
+                    <div>
+                        <div>1</div>
+                        <div>posts</div>
+                    </div>
+                    <div>
+                        <div>131</div>
+                        <div>followers</div>
+                    </div>
+                    <div>
+                        <div>239</div>
+                        <div>following</div>
+                    </div>
+                </div>          
+            </section>
+        </main>
+    </div>
+</body>
+</html>
